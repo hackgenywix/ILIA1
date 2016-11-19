@@ -24,6 +24,9 @@ poly = prep_poly(*make_targets())
 
 def transformation(x,y):
     cin = x+1j*y
-    cin = 0.5+0.5j+(cin-0.5-0.5j)*2
-    cret = np.polyval(poly, cin)
+    #cin = 0.5+0.5j+(cin-0.5-0.5j)*2
+    #cret = np.polyval(poly, cin)
+    cin = -0.5+-0.5j+cin
+    cret = 0.03*np.exp(cin) if cin != 0 else 0
+    cret = cret + 0.5+0.5j
     return (cret.real, cret.imag)
