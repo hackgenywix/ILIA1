@@ -1,4 +1,4 @@
-package meltzer;
+package customcontrolexample;
 
 import javax.swing.*;
 
