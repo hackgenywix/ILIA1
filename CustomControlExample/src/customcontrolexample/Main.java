@@ -1,4 +1,4 @@
-package meltzer;
+package customcontrolexample;
 
 public class Main {
 
