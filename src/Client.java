@@ -1,5 +1,11 @@
 
 class Client {
 
-    public static format_image()
+    public static image2bytes() {
+
+    }
+
+    public bytes2image() {
+
+    }
 }
